@@ -1,0 +1,23 @@
+{
+  "name": "electron-webcomponents-sample",
+  "version": "1.0.0",
+  "description": "Electron with Web Components Sample",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourcechord/electron-webcomponents-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sourcechord/electron-webcomponents-sample/issues"
+  },
+  "homepage": "https://github.com/sourcechord/electron-webcomponents-sample#readme",
+  "devDependencies": {
+    "electron": "^1.7.0"
+  }
+}
