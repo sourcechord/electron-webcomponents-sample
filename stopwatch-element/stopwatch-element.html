@@ -1,5 +1,25 @@
 <template id="stopwatch-element-template">
-    <div>
+    <style>
+        #root{
+            display: inline-block;
+            background: lightgray;
+
+            border-radius: 5px;
+            border: 2px solid gray;
+            padding: 10px;
+        }
+        #content{
+            display: inline-block;
+            font-weight: bold;
+            font-family: sans-serif;
+            width: 100px;
+        }
+
+        button {
+            width: 50px;
+        }
+    </style>
+    <div id="root">
         <span id="content"></span>
         <button id="btnStartStop">start</button>
         <button id="btnReset">reset</button>
